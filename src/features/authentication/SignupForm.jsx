@@ -77,7 +77,6 @@ function SignupForm() {
           })}
         />
       </FormRow>
-
       <FormRow>
         {/* type is an HTML attribute! */}
         <Button
