@@ -101,10 +101,10 @@ function CheckinBooking() {
           {!addBreakfast
             ? formatCurrency(totalPrice)
             : `${formatCurrency(
-              totalPrice + optionalBreakfastPrice
-            )} (${formatCurrency(totalPrice)} + ${formatCurrency(
-              optionalBreakfastPrice
-            )})`}
+                totalPrice + optionalBreakfastPrice
+              )} (${formatCurrency(totalPrice)} + ${formatCurrency(
+                optionalBreakfastPrice
+              )})`}
         </Checkbox>
       </Box>
 
